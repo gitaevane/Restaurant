@@ -565,7 +565,7 @@ def Send():
                         messagebox.showerror("Error",'Bill Details is empty')
                 else:
                         url = "https://www.fast2sms.com/dev/bulk"
-                        api="4T0ghI6yK3r5IQipsTGdcVyNA8UMLUj2A5MfQQ4KqrfkOXs6VavcxJ2Q8qkQ" #go to fast2sms.com signup to get the free api and put it into here in api variable
+                        api="" #go to fast2sms.com signup to get the free api and put it into here in api variable
                         querystring = {"authorization":api,"sender_id":"FSTSMS","message":messages,"language":"english","route":"p","numbers":ph_number}
 
                         headers = {
